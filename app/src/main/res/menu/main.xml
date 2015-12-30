@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!-- button for display settings -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <!-- button for display a task list -->
+    <item android:id="@+id/action_table"
+        android:icon="@drawable/collections_view_as_list"
+        android:title="@string/action_task_list"
+        android:orderInCategory="90"
+        app:showAsAction="always" />
+
+    <!-- button for display the map -->
+    <item android:id="@+id/action_map"
+        android:title="@string/action_map"
+        android:orderInCategory="80"
+        app:showAsAction="always" />
+
+    <!-- button for display the map -->
+    <item android:id="@+id/action_form"
+        android:title="@string/action_form"
+        android:orderInCategory="70"
+        app:showAsAction="always" />
+</menu>
